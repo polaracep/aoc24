@@ -1,0 +1,13 @@
+[package]
+name = "d11"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+curl = "0.4.47"
+rustc-hash = "2.1.0"
+# tokio = { version = "1", features = ["full"] }
+
+[[bin]]
+name = "d11"
+path = "main.rs"

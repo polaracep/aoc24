@@ -1,0 +1,11 @@
+[package]
+name = "d6"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+curl = "0.4.47"
+
+[[bin]]
+name = "d6"
+path = "main.rs"

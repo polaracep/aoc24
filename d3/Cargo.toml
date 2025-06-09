@@ -1,0 +1,12 @@
+[package]
+name = "d3"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+curl = "0.4.47"
+regex = "1.11.1"
+
+[[bin]]
+name = "d3"
+path = "main.rs"

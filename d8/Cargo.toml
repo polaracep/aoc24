@@ -1,0 +1,11 @@
+[package]
+name = "d8"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+curl = "0.4.47"
+
+[[bin]]
+name = "d8"
+path = "main.rs"

@@ -1,0 +1,11 @@
+[package]
+name = "d4"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+curl = "0.4.47"
+
+[[bin]]
+name = "d4"
+path = "main.rs"
